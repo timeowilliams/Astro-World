@@ -1,0 +1,44 @@
+rux-notification {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  align-items: center;
+  align-content: center;
+
+  top: -4.25rem;
+  left: 0;
+
+  height: 4.375rem;
+  width: 100%;
+
+  padding: 0.7rem 1.25rem;
+  background-color: green;
+  transition: all 0.5s ease;
+
+  box-sizing: border-box;
+  font-size: var(--fontSizeXL);
+  color: var(--notificationTextColor);
+}
+
+.rux-notification::after {
+  position: relative;
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+.visible {
+  margin-top: 100;
+}
+
+.notification-buffer.show {
+  margin-top: 0;
+}
+
+.show .rux-notification-container {
+  top: 0;
+}
+.show .rux-notification-buffer {
+  height: 60px;
+}
