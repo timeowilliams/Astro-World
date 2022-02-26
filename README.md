@@ -2,9 +2,9 @@
 A world to explore astro design themes and visualizations along with developments occurring in the web. 
 
 TODO's: 
-          1. Make API Call to show SBIRS data in AgGrid;
-          2. Mock more faster data transitions - it's cool and show off power. 
-          3. Add Grafana/Prometheus to visualize performance
+          1. Make API Call to show SBIRS data in AgGrid; \
+          2. Mock more faster data transitions - it's cool and show off power. \
+          3. Add Grafana/Prometheus to visualize performance \
           4. Add vercel/something to begin automatic deployment. 
           5. Add Cesium Globe to better mock MVP
           6. Add user login page
