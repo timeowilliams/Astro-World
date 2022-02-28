@@ -26,8 +26,6 @@ function App() {
      closeAfter: ''
    })
   })
-
-  console.log('Curr state of notification', notification)
   return (
     <div className="App">
       <RuxClassificationMarking classification="unclassified" />
@@ -61,6 +59,7 @@ function App() {
         <div>
         <AddSpace />
         <AddSpace />
+        {/* <TestIFrame /> */}
         </div>
     </div>
   );
